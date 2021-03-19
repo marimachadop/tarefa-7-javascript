@@ -25,9 +25,9 @@ const imc2 = parseFloat(peso2) / (parseFloat(altura2) * parseFloat(altura2));
 console.log('IMC do usuário 2: ' + imc2);
 
 if (imc1 > imc2) {
-    console.log(`O IMC de ${nome1} (${imc1}) é maior que o de ${nome2} (${imc2}).`)
+    console.log(`O IMC de ${nome1} (${imc1}) é maior que o de ${nome2} (${imc2}).`);
 } else if (imc2 > imc1) {
-    console.log(`O IMC de ${nome2} (${imc2}) é maior que o de ${nome1} (${imc1}).`)
+    console.log(`O IMC de ${nome2} (${imc2}) é maior que o de ${nome1} (${imc1}).`);
 } else {
-    console.log(`O IMC de ${nome1} (${imc1}) é igual ao de ${nome2} (${imc2}).`)
+    console.log(`O IMC de ${nome1} (${imc1}) é igual ao de ${nome2} (${imc2}).`);
 }
